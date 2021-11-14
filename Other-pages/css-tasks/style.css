@@ -1,0 +1,193 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------ container ------------ */
+.container{
+    position: absolute;
+    padding:10px;
+    width:382px;
+    margin:0 auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 543px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* ------------ header ------------ */
+.header{
+    width: 382px;
+    height:50px;
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    background-color: #f5f5f5;
+    margin-bottom: 8px;
+}
+.clear{
+    width : 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    bottom: 11px;
+}
+.clear i{
+    font-size: 30px;
+    color: #000;
+}
+.clear i:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+
+/* ------------ content ------------ */
+.content{
+    width:382px;
+    height: 380px;
+    max-height:380px;
+    overflow: auto;
+    
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:0;
+    margin:0;
+}
+
+.item{
+    width:380px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 7px;
+    border: 1px solid #f5f5f5;
+    border-radius: 9px;
+    background-color: #B8B8FF;
+}
+.item i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left: 5px;
+    left: 15px;
+    top: 10px;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+.fa-check-circle{
+    color:#f5f5f5;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 23px;
+    left:60px;
+    top:5px;
+    max-width:285px;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+.item i.de{
+    position: absolute;
+    font-size: 25px;
+    right:15px;
+    top:10px;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
+
+/* ------------ add item ------------ */
+.add-to-do{
+    position: relative;
+    width: 360px;
+    height:40px;
+    padding: 10px;
+    border: 3px dashed #f5f5f5;
+    border-radius: 16px;
+}
+.add-to-do i{
+    position: absolute;
+    font-size: 40px;
+    color: #f5f5f5;
+    transform: translate(-18%, -16%);
+    padding: 10px;
+}
+
+.add-to-do input{
+    position: absolute;
+    left: 55px;
+    top: 2px;
+    height: 54px;
+    width: 311px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #B8B8FF;
+    font-weight: bolder;
+}
+.add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #f5f5f5;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.add-to-do input::-moz-placeholder { /* Firefox 19+ */
+    color: #f5f5f5;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.add-to-do input:-ms-input-placeholder { /* IE 10+ */
+    color: #f5f5f5;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.add-to-do input:-moz-placeholder { /* Firefox 18- */
+    color: #f5f5f5;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

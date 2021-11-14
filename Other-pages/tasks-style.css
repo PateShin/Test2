@@ -1,0 +1,81 @@
+body {
+  background-color: #9381ff;
+  }
+
+.image {
+  padding-right: 20px;
+  position: relative;
+  right: 6%;
+}
+
+#logo {
+  max-height: 60px;
+  max-width: 200px;
+  height: 50%;
+  width: 100%;
+}
+
+/*Display of navigation bar*/
+nav {
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+/*How the links in navigation bar are layout and shown*/
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+/* Desgin for the buttons */
+nav a {
+  display: flex;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #f5f5f5;
+  text-align: right;
+  font-family: "Signika";
+}
+
+/*button change color when the mouse cursor is hovering over*/
+nav a:hover {
+  opacity: 50%;
+}
+
+hr.navline {
+  border-top: 1px solid black;
+  border-bottom: none;
+  width: 31%;
+  min-width: 350px;
+}
+
+.down {
+  padding-top: 28px;
+}
+
+.contact {
+  position: fixed;
+  left: 94%;
+  bottom: 1%;
+}
+
+.imgcontact {
+  height: 80px;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  left: 50%;
+  top: 170px;
+  transform: translate(-50%, -50%);
+  color: #f5f5f5;
+}

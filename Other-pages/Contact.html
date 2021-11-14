@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact-style.css" />
+    <link rel="stylesheet" href="../settings-style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <!--Navigation bar-->
+      <nav>
+        <ul>
+              <!--Logo for the navigation bar which has a links to home page-->
+              <li><div class="image"><a href="../Index.html"><img id="logo" src="../Other-pages/Images/Logo.png" alt="Let's Focus logo" height="60" width="200"></a></div></li>
+              <!--List of html links to other pages-->
+              <li><a href="about.html" class="down"> About </a></li> <!--Html links to About pages-->
+              <li><a href="Task.html" class="down"> Task </a></li> <!--Html links to Artist pages--> 
+              <li><a href="Timeline.html" class="down"> Timeline </a></li> <!--Html links to Gallery pages-->
+              <li><button class="settingdown" onclick="openForm()"><img src="../Other-pages/Images/setting.png" alt="FLAWOD logo" height="32" width="32"></button></li>
+        </ul>
+      
+        <!--This line is used for seperation of the page between the body and navigation bar-->
+        <hr class="navline">
+      </nav>
+      
+      <div class="container">
+        <h1>Contact</h1>
+        <hr class="cotline">
+        <img class="icon1" src="../Other-pages/Images/location-icon.png" alt="Location icon">
+        <img class="icon2" src="../Other-pages/Images/zipcode-icon.png" alt="Zip icon">
+        <img class="icon3" src="../Other-pages/Images/phone-icon.png" alt="phone icon">
+        <img class="icon4" src="../Other-pages/Images/email-icon.png" alt="email icon">
+        
+        <div class="info1"><b>117  Stainton Lane, Strandon,<br>New Plymouth</b></div>
+        <div class="info2"><b>4321</b></div>
+        <div class="info3"><b>(022) 2888-627</b></div>
+        <div class="info4"><b>Starfish@gmail.com</b></div>
+      </div>
+
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <div class="h8">Setting</div>
+          <hr class="setline">
+
+          <div class="imgcont">
+          <img class="backimg3" src="../Other-pages/Images/settingwhitebackground.png" alt="background">
+          </div>
+
+          <div class="option3">Others</div>
+          <a href="FAQ.pdf" class="otheroptions">FAQ & Support</a>
+          <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=yVmjCtuvEEiWLSiRMHv1BvrpQ9-hSwpGsKr4UmgAf0pUOFgxWkNRUTc4SzUwSURMVzA0QUNSQzdDRy4u" class="otheroptions2">Give us feedback</a>
+          <a href="Contact.html" class="contact">Contact</a>                   
+      
+          <button type="button" class="btn cancel" onclick="closeForm()"><b>Close</b></button>
+        </form>
+      </div>
+
+      <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+      </script>
+
+  </body>
+</html>

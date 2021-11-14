@@ -1,0 +1,158 @@
+body {
+  background-color: #9381ff;
+  color: #ffffff;
+  }
+
+.image {
+  padding-right: 20px;
+  position: relative;
+  right: 6%;
+}
+
+#logo {
+  max-height: 60px;
+  max-width: 200px;
+  height: 50%;
+  width: 100%;
+}
+
+/*Display of navigation bar*/
+nav {
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+/*How the links in navigation bar are layout and shown*/
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+/* Desgin for the buttons */
+nav a {
+  display: flex;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #f5f5f5;
+  text-align: right;
+  font-family: "Signika";
+}
+
+/*button change color when the mouse cursor is hovering over*/
+nav a:hover {
+  opacity: 50%;
+  color: #f5f5f5;
+}
+
+hr.navline {
+  border-top: 1px solid black;
+  border-bottom: none;
+  width: 31%;
+  min-width: 350px;
+}
+
+.down {
+  padding-top: 28px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  
+}
+
+hr.cotline {
+  border-top: 1px solid black;
+  border-bottom: none;
+  width: 310px;
+}
+
+.container {
+  position: relative;
+  background-color: #b8b8ff;
+  border-radius: 100px;
+  border: 2px solid #F8F7FF;
+  width: 40%;
+  min-width: 460px;
+  height: 700px;
+  margin: auto;
+  padding-top: 1px;
+  margin-top: 20px;
+}
+
+.icon1 {
+  position: absolute;
+  height: 35px;
+  left: 20%;
+  top: 20%;
+  margin: auto;
+}
+
+.icon2 {
+  position: absolute;
+  height: 35px;
+  left: 20%;
+  top: 40%;
+  margin: auto;
+}
+
+.icon3 {
+  position: absolute;
+  height: 35px;
+  left: 21%;
+  top: 60%;
+  margin: auto;
+}
+
+.icon4 {
+  position: absolute;
+  height: 60px;
+  left: 19%;
+  top: 80%;
+  margin: auto;
+}
+
+.info1 {
+  position: absolute;
+  right: 10%;
+  top: 18%;
+  color: black;
+  text-align: center;
+  font-size: 21px;
+  min-width: 200px;
+  width: 50%;
+}
+
+.info2 {
+  position: absolute;
+  right: 31%;
+  top: 40%;
+  color: black;
+  text-align: center;
+  font-size: 21px;
+}
+
+.info3 {
+  position: absolute;
+  right: 24%;
+  top: 60%;
+  color: black;
+  text-align: center;
+  font-size: 21px;
+}
+
+.info4 {
+  position: absolute;
+  right: 21%;
+  top: 82%;
+  color: black;
+  text-align: center;
+  font-size: 21px;
+}

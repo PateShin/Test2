@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's Focus</title>
+    <link rel="stylesheet" href="style-index.css" />
+    <link rel="stylesheet" href="settings-style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+      <!--Navigation bar-->
+      <nav>
+        <ul>
+              <!--Logo for the navigation bar which has a links to home page-->
+              <li><div class="image"><a href="Index.html"><img id="logo" src="../Images/Logo.png" alt="Let's Focus logo" height="60" width="200"></a></div></li>
+              <!--List of html links to other pages-->
+              <li><a href="../New-Let's-Focus/Other-pages/about.html" class="down"> About </a></li> <!--Html links to About pages-->
+              <li><a href="../New-Let's-Focus/Other-pages/Task.html" class="down"> Task </a></li> <!--Html links to Artist pages--> 
+              <li><a href="../New-Let's-Focus/Other-pages/Timeline.html" class="down"> Timeline </a></li> <!--Html links to Gallery pages-->
+              <li><button class="settingdown" onclick="openForm()"><img src="../Images/setting.png" alt="FLAWOD logo" height="32" width="32"></button></li>
+        </ul>
+      
+        <!--This line is used for seperation of the page between the body and navigation bar-->
+        <hr class="navline">
+      </nav>
+
+      <div class="container-timer">
+        <div class="circle">
+          <span class="time" id="display">00:00<br>00</span>
+        </div>
+      
+        <div class="secondcontainer">
+            <div class="thirdcontainer">
+
+              <button class="buttonPlay">
+                <img class="playbtnsize" id="playButton" src="../Images/playbutton.png"  alt="Playbutton"/>
+
+                <img class="playbtnsize" id="pauseButton" src="../Images/stopbutton.png" alt="stopbutton"/>
+              </button>
+              <button class="buttonReset" id="resetButton"><b>RESET</b></button>
+            </div>
+        </div>
+      </div>
+
+    <script type="text/javascript" src="Index.js"></script>
+
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <div class="h8">Setting</div>
+          <hr class="setline">
+
+          <div class="imgcont">
+          <img class="backimg3" src="../Images/settingwhitebackground.png" alt="background">
+          </div>
+
+          <div class="option3">Others</div>
+          <a href="FAQ.pdf" class="otheroptions">FAQ & Support</a>
+          <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=yVmjCtuvEEiWLSiRMHv1BvrpQ9-hSwpGsKr4UmgAf0pUOFgxWkNRUTc4SzUwSURMVzA0QUNSQzdDRy4u" class="otheroptions2">Give us feedback</a>
+          <a href="Contact.html" class="contact">Contact</a>                   
+      
+          <button type="button" class="btn cancel" onclick="closeForm()"><b>Close</b></button>
+        </form>
+      </div>
+
+      <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+      </script>
+  </body>
+</html>

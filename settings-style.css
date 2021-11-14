@@ -1,0 +1,115 @@
+.settingdown {
+  margin-top: 19px;
+  background-color: #9381ff;
+  border: none;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  border-radius: 50px;
+  height: 400px;
+  width: 60%;
+  max-width: 600px;
+  min-width: 420px;
+  border: 2px solid #f1f1f1;
+  background-color: #b8b8ff;
+  transform: translate(50%, 0%);
+}
+
+/* Add styles to the form container */
+.form-container {
+  margin: auto;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a cancel button */
+.form-container .cancel {
+  color: black;
+  background-color: #b8b8ff;
+  font-size: 25px;
+  position: absolute;
+  text-align: center;
+  bottom: 0%;
+  right: 43%;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.setline {
+  border-color: black;
+  border-bottom: black;
+  min-width: 300px;
+  width: 80%;
+}
+
+.h8 {
+  margin: auto;
+  color: black;
+  font-size: 30px;
+}
+
+  /* Container holding the image and the text */
+.imgcont {
+  position: relative;
+  text-align: center;
+}
+
+.backimg3 {
+  position: absolute;
+  width: 90%;
+  top: 148px;
+  transform: translate(-50%, -50%);
+  height: 260px;
+}
+
+.option3 {
+  position: absolute;
+  font-size: 30px;
+  color: black;
+  left: 50%;
+  top: 98px;
+  transform: translate(-50%, 0%);
+}
+
+.otheroptions {
+  position: absolute;
+  font-size: 23px;
+  left: 50%;
+  color: black;
+  top: 168px;
+  transform: translate(-50%, 0%);
+}
+
+.otheroptions2 {
+  position: absolute;
+  font-size: 23px;
+  left: 50%;
+  color: black;
+  top: 228px;
+  transform: translate(-50%, 0%);
+}
+
+.contact {
+  position: fixed;
+  left: 50%;
+  top: 288px;
+  color: black;
+  font-size: 23px;
+  transform: translate(-50%, 0%);
+}

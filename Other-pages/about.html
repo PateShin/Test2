@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="about-style.css" />
+    <link rel="stylesheet" href="../settings-style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <!--Navigation bar-->
+      <nav>
+        <ul>
+              <!--Logo for the navigation bar which has a links to home page-->
+              <li><div class="image"><a href="../Index.html"><img id="logo" src="../Other-pages/Images/Logo.png" alt="Let's Focus logo" height="60" width="200"></a></div></li>
+              <!--List of html links to other pages-->
+              <li><a href="about.html" class="down"> About </a></li> <!--Html links to About pages-->
+              <li><a href="Task.html" class="down"> Task </a></li> <!--Html links to Artist pages--> 
+              <li><a href="Timeline.html" class="down"> Timeline </a></li> <!--Html links to Gallery pages-->
+              <li><button class="settingdown" onclick="openForm()"><img src="../Other-pages/Images/setting.png" alt="FLAWOD logo" height="32" width="32"></button></li>
+        </ul>
+      
+        <!--This line is used for seperation of the page between the body and navigation bar-->
+        <hr class="navline">
+      </nav>
+      
+      <h1>What is Lets Focus?</h1>
+      <div class="container1">
+        <p>
+          Let's Focus is a customizable Pomodoro timer that works on desktop & mobile 
+          browsers. This website/app aims to help you focus on any task you are working 
+          on, such as study, writing, or coding. Pomofocus, a time management interface, 
+          is the inspiration for this website/app. 
+        </p>
+      </div>
+
+      <div class="container2">
+        <h2>The Pomodoro Technique</h2>
+        <p>
+          Francesco Cirillo developed the Pomodoro Technique to help people work 
+          and study more efficiently. The approach
+          employs the use of a timer to divide work into 25-minute intervals 
+          interrupted by brief breaks. 
+          Each interval is referred to as a pomodoro, 
+          which comes from the Italian word for "tomato" and was named after 
+          Cirillo's tomato-shaped 
+          kitchen timer while he was a university student. - From Wikipedia 
+        </p>
+      </div>
+
+      <div class="container3">
+        <h3>How to use the Let’s Focus Timer?</h3>
+        <p>
+          1. Add tasks to work on today or to the timeline
+          <br>
+          <br>
+          2. Set estimate time to work for each tasks
+          <br>
+          <br>
+          3. Start timer and focus on the task
+          <br>
+          <br>
+          4. Take a break until the alarm ring 
+          <br>
+          <br>
+          5. Iterate 3-5 until you finish the tasks
+        </p>
+      </div>
+
+      
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <div class="h8">Setting</div>
+          <hr class="setline">
+
+          <div class="imgcont">
+          <img class="backimg3" src="../Other-pages/Images/settingwhitebackground.png" alt="background">
+          </div>
+
+          <div class="option3">Others</div>
+          <a href="FAQ.pdf" class="otheroptions">FAQ & Support</a>
+          <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=yVmjCtuvEEiWLSiRMHv1BvrpQ9-hSwpGsKr4UmgAf0pUOFgxWkNRUTc4SzUwSURMVzA0QUNSQzdDRy4u" class="otheroptions2">Give us feedback</a>
+          <a href="Contact.html" class="contact">Contact</a>                
+      
+          <button type="button" class="btn cancel" onclick="closeForm()"><b>Close</b></button>
+        </form>
+      </div>
+
+      <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+      </script>
+
+  </body>
+</html>

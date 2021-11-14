@@ -1,0 +1,112 @@
+body {
+  background-color: #9381ff;
+  color: #ffffff;
+  }
+
+.image {
+  padding-right: 20px;
+  position: relative;
+  right: 6%;
+}
+
+#logo {
+  max-height: 60px;
+  max-width: 200px;
+  height: 50%;
+  width: 100%;
+}
+
+/*Display of navigation bar*/
+nav {
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+/*How the links in navigation bar are layout and shown*/
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+/* Desgin for the buttons */
+nav a {
+  display: flex;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #f5f5f5;
+  text-align: right;
+  font-family: "Signika";
+}
+
+/*button change color when the mouse cursor is hovering over*/
+nav a:hover {
+  opacity: 50%;
+  color: #f5f5f5;
+}
+
+hr.navline {
+  border-top: 1px solid black;
+  border-bottom: none;
+  width: 31%;
+  min-width: 350px;
+}
+
+.down {
+  padding-top: 28px;
+}
+
+.contact {
+  position: fixed;
+  left: 94%;
+  bottom: 1%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 23px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 23px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 23px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.imgcontact {
+  height: 80px;
+}
+
+.Timelinecont {
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  left: 50%;
+  top: 50%;
+  width: 200px;
+  transform: translate(-50%, -50%);
+  color: #f5f5f5;
+  background-color: #b8b8ff;
+  border: 2px dashed #f5f5f5;
+  border-radius: 15px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
